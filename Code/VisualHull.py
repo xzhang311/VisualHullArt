@@ -4,7 +4,6 @@ from skimage import measure
 import numpy as np
 import cv2
 import scipy
-import tensorflow as tf
 
 # zx
 
@@ -114,10 +113,10 @@ def write_ply(verts, faces, fname):
     return
 
 def main():
-    imgx = cv2.imread('/Users/xizhn/Projects/Visualhull/Imgs/pisces1.jpg', 0)
+    imgx = cv2.imread('/home/xi/Projects/ArtThroughVisualHull/Imgs/clover.jpg', 0)
     imgx = np.flip(imgx, axis = 1)
-    imgy = cv2.imread('/Users/xizhn/Projects/Visualhull/Imgs/s.jpg', 0)
-    imgz = cv2.imread('/Users/xizhn/Projects/Visualhull/Imgs/j.jpg', 0)
+    imgy = cv2.imread('/home/xi/Projects/ArtThroughVisualHull/Imgs/scorpio_neg_nub.jpg', 0)
+    imgz = cv2.imread('/home/xi/Projects/ArtThroughVisualHull/Imgs/pisces_nub.jpg', 0)
 
     h, w, d = 200, 200, 200
     voxel_counts = h*w*d
@@ -139,7 +138,7 @@ def main():
 
     verts, faces = voxels_to_mesh(voxels_voted, use_classic=False)
 
-    meshPath = '/Users/xizhn/Desktop/name_mesh.ply'
+    meshPath = '/home/xi/Desktop/name_mesh.ply'
     write_ply(verts, faces, meshPath)
     zx = 0
 
