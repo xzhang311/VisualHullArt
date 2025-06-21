@@ -9,6 +9,13 @@ VisualHullArt is a Python project that generates artistic 3D reconstructions usi
 - **Multi-View Processing**: Supports input from multiple camera angles for accurate reconstructions.
 - **Export Options**: Saves outputs as 3D models (OBJ) or rendered images (PNG/JPG).
 
+## Preview
+![Preview 1](Imgs/clover.jpg)
+![Preview 2](Imgs/pisces_nub.jpg)
+![Preview 3](Imgs/scorpio_neg_nub.jpg)
+![Preview 3](Imgs/Results.jpg)
+
+
 ## Installation
 1. Clone the repository:
    ```bash
