@@ -13,7 +13,7 @@ VisualHullArt is a Python project that generates artistic 3D reconstructions usi
 ![Preview 1](Imgs/clover.jpg)
 ![Preview 2](Imgs/pisces_nub.jpg)
 ![Preview 3](Imgs/scorpio_neg_nub.jpg)
-![Preview 3](Imgs/Results.jpg)
+![Preview 3](Imgs/Results.png)
 
 
 ## Installation
